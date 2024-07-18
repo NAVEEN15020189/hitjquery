@@ -4,7 +4,7 @@
   }
 
   .bgimage{
-    background-image: url("../bg-2.jpg") !important;
+    background-image: url("./bg-2.jpg") !important;
     background-size: cover;
     height: 300px;
     background-repeat: no-repeat;

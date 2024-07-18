@@ -1,0 +1,117 @@
+  .nav-link:hover{
+    color: orange !important;
+ 
+  }
+
+  .bgimage{
+    background-image: url("../bg-2.jpg") !important;
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    height: 550px;
+   /**/
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+  .trained{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .iconprofile{
+font-size: 100px;
+  }
+
+  /* table thead tr th{
+    color:white
+  } */
+
+  .card{
+    overflow:hidden ;
+  }
+  .card img:hover{
+    transform: scale(1.1,1.1);
+   
+    transition-duration: 0.4s;
+  }
+  .content_end{
+text-align: justify;
+  }
+  .bg-color-footer{
+    background-color: rgb(2, 81, 2);
+    color: white;
+  }
+
+  .copy{
+    
+    background-color: rgb(17, 32, 1);
+    color: white;
+  }
+
+  .indexing{
+    
+
+   
+    background-color: rgb(117, 197, 27);
+    position: fixed;
+   bottom: 10px;
+  
+   left: 0px;
+padding: 10px;
+    z-index: 1 ;
+    border-radius: 10px;
+   
+  }
+ 
+  .indexing2{
+    
+    background-color: rgb(212, 168, 26);
+    position: fixed;
+   bottom: 10px;
+  
+   right: 0px;
+padding: 10px;
+    z-index: 1 ;
+    border-radius: 10px;
+  }
+
+  .indexing3{
+    background-color: rgb(212, 38, 26);
+    position: fixed;
+   bottom: 60px;
+  width: 50px !important;
+   right: 0px;
+text-align: center;
+
+    z-index: 1 ;
+    border-radius: 10px;
+  }
+
+
+@media (max-width:768px) {
+    .topnav{
+        display: none;
+    }
+
+    .nav-link{
+        margin: 5px;
+        background-color: rgb(5, 52, 5);
+        color: white !important;
+    }
+}
+
+@media(min-width:992px){
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    
+}
